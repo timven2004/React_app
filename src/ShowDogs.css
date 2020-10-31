@@ -1,0 +1,31 @@
+.propic{
+
+}
+
+.dogName{
+	color:white;
+}
+
+.propic {
+	border-radius:50%;
+	width:75%;
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .3s ease-in-out;  
+    }
+
+.linkArea:hover{
+text-decoration:none;    }
+
+
+.propic:hover {
+		filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.00);
+    }
+
+
+.nameTag{
+	margin:10px;
+}
